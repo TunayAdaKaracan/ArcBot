@@ -1,0 +1,8 @@
+default-language: "en"
+
+bot-token: "OTc1Nzc2MDIyNTM4NjI5MTQw.G1ObXI.fhQVg0iq6lvcuNEWkAAd-o2AYSSIysBkN3dkyg"
+
+bot-status:
+  status: "online" # Online, Dnd, Idle, Offline
+  type: "watching" # Watching, Listening, Playing, Computing
+  message: "your heart"
