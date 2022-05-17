@@ -21,4 +21,4 @@ async def test(ctx):
     ctx.respond("fuck you")
 
 
-a.run("OTc1Nzc2MDIyNTM4NjI5MTQw.G1ObXI.fhQVg0iq6lvcuNEWkAAd-o2AYSSIysBkN3dkyg")
+a.run("")
