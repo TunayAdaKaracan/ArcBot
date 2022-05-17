@@ -1,3 +1,117 @@
 {
-  "bot-console-ready-message": "Bot Is Ready."
+  "bot-console-ready-message": "Bot Is Ready.",
+  "cooldown-message": {
+    "title": "Cooldown!",
+    "description": "You are on cooldown! Wait `%seconds%` seconds to use this command again!",
+    "color": {
+      "r": 254,
+      "g": 0,
+      "b": 0
+    },
+    "footer": "You bitch",
+    "footer-icon": ""
+  },
+  "balance-not-enough-message": {
+    "title": "Error!",
+    "description": "Balance not enough!",
+    "color": {
+      "r": 254,
+      "g": 0,
+      "b": 0
+    },
+    "footer": "",
+    "footer-icon": ""
+  },
+  "other-balance-not-enough-message": {
+    "title": "Error!",
+    "description": "%member% has 0",
+    "color": {
+      "r": 254,
+      "g": 0,
+      "b": 0
+    },
+    "footer": "",
+    "footer-icon": ""
+  },
+  "incorrect-argument-message": {
+    "title": "Error!",
+    "description": "%arg_name% named field needs to be %arg_type%",
+    "color": {
+      "r": 254,
+      "g": 0,
+      "b": 0
+    },
+    "footer": "",
+    "footer-icon": ""
+  },
+  "balance-command": {
+    "title": "Balance",
+    "description": "Your Balance: `%balance%`",
+    "color": {
+      "r": 254,
+      "g": 254,
+      "b": 254
+    },
+    "footer": "",
+    "footer-icon": ""
+  },
+  "work-command": {
+    "title": "You Worked",
+    "description": "Your Earned: `%money%`",
+    "color": {
+      "r": 254,
+      "g": 254,
+      "b": 254
+    },
+    "footer": "",
+    "footer-icon": ""
+  },
+  "coinflip-command": {
+    "win": {
+      "title": "You Won Coinflip",
+      "description": "Your Earned: `%money%`",
+      "color": {
+        "r": 0,
+        "g": 254,
+        "b": 0
+      },
+      "footer": "",
+      "footer-icon": ""
+    },
+    "lose": {
+      "title": "You Lost Coinflip",
+      "description": "Your Lose: `%money%`",
+      "color": {
+        "r": 254,
+        "g": 0,
+        "b": 0
+      },
+      "footer": "Haha Noob",
+      "footer-icon": ""
+    }
+  },
+  "steal-command": {
+    "success": {
+      "title": "You Stole Money",
+      "description": "Your Earned: `%money%` from %member%",
+      "color": {
+        "r": 0,
+        "g": 254,
+        "b": 0
+      },
+      "footer": "",
+      "footer-icon": ""
+    },
+    "caught": {
+      "title": "You Caught!",
+      "description": "You got caught while robbing %member%",
+      "color": {
+        "r": 254,
+        "g": 0,
+        "b": 0
+      },
+      "footer": "Haha Noob",
+      "footer-icon": ""
+    }
+  }
 }

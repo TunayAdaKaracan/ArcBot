@@ -1,0 +1,5 @@
+economy:
+  balance: 0
+  work: 300
+  coinflip: 500
+  steal: 1000

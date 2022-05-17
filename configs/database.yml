@@ -1,2 +1,2 @@
 mongo-url: ""
-mongo-database: ""
+mongo-database: "arcbot"

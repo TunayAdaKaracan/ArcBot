@@ -3,6 +3,13 @@ default-language: "en"
 bot-token: ""
 
 bot-status:
-  status: "online" # Online, Dnd, Idle, Offline
-  type: "watching" # Watching, Listening, Playing, Computing
+  status: "idle" # Online, Dnd, Idle, Offline
+  type: "competing" # Watching, Listening, Playing, Computing
   message: "your heart"
+
+work-command-income:
+  min: 10
+  max: 100
+
+coinflip-win-chance: 10
+steal-success-chance: 5
