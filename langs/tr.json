@@ -1,8 +1,8 @@
 {
-  "bot-console-ready-message": "Bot Is Ready.",
+  "bot-console-ready-message": "Bot Hazır",
   "cooldown-message": {
-    "title": "Cooldown!",
-    "description": "You are on cooldown! Wait `%seconds%` seconds to use this command again!",
+    "title": "Bekle!",
+    "description": "Bu Komutu Tekrar Kullanmadan Önce %seconds% sn beklemelisin",
     "color": {
       "r": 254,
       "g": 0,
@@ -11,10 +11,9 @@
     "footer": "You bitch",
     "footer-icon": ""
   },
-
   "not-permitted": {
-    "title": "You are not permitted!",
-    "description": "You dont have enough perm to use this command",
+    "title": "İznin Yok!",
+    "description": "Bu Komutu Kullanmak İçin Yeterli Yetkiye Sahip Değilsin",
     "color": {
       "r": 254,
       "g": 0,
@@ -24,8 +23,8 @@
     "footer-icon": ""
   },
   "bot-member-message": {
-    "title": "Error!",
-    "description": "%member% is a bot!",
+    "title": "Hata!",
+    "description": "%member% bir bot",
     "color": {
       "r": 254,
       "g": 0,
@@ -35,8 +34,8 @@
     "footer-icon": ""
   },
   "balance-not-enough-message": {
-    "title": "Error!",
-    "description": "Balance not enough!",
+    "title": "Hata!",
+    "description": "Bakiye Yetersiz!",
     "color": {
       "r": 254,
       "g": 0,
@@ -46,8 +45,8 @@
     "footer-icon": ""
   },
   "other-balance-not-enough-message": {
-    "title": "Error!",
-    "description": "%member% has 0",
+    "title": "Hata!",
+    "description": "%member% da sadece %money% kadar para var",
     "color": {
       "r": 254,
       "g": 0,
@@ -57,8 +56,8 @@
     "footer-icon": ""
   },
   "help-command": {
-    "title": "Help Command",
-    "description": "A Help Command",
+    "title": "Yardım Komutu",
+    "description": "Bir Tane Yardım Komutu",
     "color": {
       "r": 254,
       "g": 254,
@@ -68,8 +67,8 @@
     "footer-icon": ""
   },
   "language-command": {
-    "title": "Language Changed",
-    "description": "Language Changed to %to% from %from%",
+    "title": "Dil Değişti",
+    "description": "Dil %from% dilinden %to% diline değiştirildi",
     "color": {
       "r": 0,
       "g": 254,
@@ -79,8 +78,8 @@
     "footer-icon": ""
   },
   "balance-command": {
-    "title": "Balance",
-    "description": "Your Balance: `%balance%`",
+    "title": "Bakiye",
+    "description": "Bakiyen: `%balance%`",
     "color": {
       "r": 254,
       "g": 254,
@@ -90,8 +89,8 @@
     "footer-icon": ""
   },
   "work-command": {
-    "title": "You Worked",
-    "description": "Your Earned: `%money%`",
+    "title": "Çalıştın!",
+    "description": "Şu Kadar Kazandın: `%money%`",
     "color": {
       "r": 254,
       "g": 254,
@@ -102,8 +101,8 @@
   },
   "coinflip-command": {
     "win": {
-      "title": "You Won Coinflip",
-      "description": "Your Earned: `%money%`",
+      "title": "Coinflip Kazandın",
+      "description": "Şu Kadar Kazandın: `%money%`",
       "color": {
         "r": 0,
         "g": 254,
@@ -113,8 +112,8 @@
       "footer-icon": ""
     },
     "lose": {
-      "title": "You Lost Coinflip",
-      "description": "Your Lose: `%money%`",
+      "title": "Coinflip Kaybettin",
+      "description": "Şu Kadar Kaybettin: `%money%`",
       "color": {
         "r": 254,
         "g": 0,
@@ -126,8 +125,8 @@
   },
   "steal-command": {
     "success": {
-      "title": "You Stole Money",
-      "description": "Your Earned: `%money%` from %member%",
+      "title": "Para Çaldın",
+      "description": "%member% adlı kişiden %money% kadar para çaldın",
       "color": {
         "r": 0,
         "g": 254,
@@ -137,8 +136,8 @@
       "footer-icon": ""
     },
     "caught": {
-      "title": "You Caught!",
-      "description": "You got caught while robbing %member%",
+      "title": "Yakalandın",
+      "description": "%member% adlı kişiyi soyarken yakalandın",
       "color": {
         "r": 254,
         "g": 0,

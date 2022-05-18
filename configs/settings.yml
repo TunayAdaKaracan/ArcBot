@@ -7,9 +7,24 @@ bot-status:
   type: "competing" # Watching, Listening, Playing, Computing
   message: "your heart"
 
+server-ids:
+  - 844842869285847060
+
+permitted-roles:
+  - 844842869293318207
+
+# command settings
+
+rank-command-color:
+  r: 0
+  g: 255
+  b: 255
+
+rank-command-xp-per-message: 5
+
 work-command-income:
   min: 10
   max: 100
 
 coinflip-win-chance: 10
-steal-success-chance: 5
+steal-success-chance: 50

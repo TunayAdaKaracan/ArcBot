@@ -10,13 +10,13 @@ from util.DatabaseManager import Database
 from enums.StatusEnum import StatusEnum
 
 intents = discord.Intents().default()
+intents.messages = True
 intents.guilds = True
 intents.members = True
 intents.presences = True
 
 
 class ArcBot(discord.Bot, ABC):
-
     def __init__(self):
         super().__init__(intents=intents)
         self.lang_manager = LangManager()
@@ -29,6 +29,8 @@ class ArcBot(discord.Bot, ABC):
                                  self.config_manager.get("database", "mongo-database"))
         print("Connected Database")
         self.default_language = self.config_manager.get("settings", "default-language")
+
+        self.debug_guilds = self.config_manager.get("settings", "server-ids")
 
         for file in list(filter(lambda f: f[-3:] == ".py", listdir("cogs/"))):
             self.load_extension("cogs."+file[:-3])
@@ -45,7 +47,7 @@ class ArcBot(discord.Bot, ABC):
             status=StatusEnum.get_status_from_string(bot_status["status"])
         )
 
-    def create_embed_from_json(self, path, serverID, replace, extra_path=None):
+    def create_embed_from_json(self, path, serverID, replace=None, extra_path=None):
         data = self.lang_manager.get(self.database.get_language(serverID), path)
         if extra_path:
             for item in extra_path:
@@ -73,9 +75,6 @@ class ArcBot(discord.Bot, ABC):
             raise exception
 
 
-
-
 if __name__ == "__main__":
     client = ArcBot()
-
     client.run(client.config_manager.get("settings", "bot-token"))

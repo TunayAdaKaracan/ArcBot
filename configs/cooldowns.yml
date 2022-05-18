@@ -3,3 +3,8 @@ economy:
   work: 300
   coinflip: 500
   steal: 1000
+general:
+  help: 0
+  language: 0
+levelling:
+  rank: 10

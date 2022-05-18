@@ -1,7 +1,6 @@
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 import aiohttp
-import time
 
 
 class CardGenerator:
@@ -83,5 +82,4 @@ class CardGenerator:
         bytes = BytesIO()
         cardImage.save(bytes, "png")
         bytes.seek(0)
-        end = time.time() * 1000
         return bytes

@@ -18,3 +18,7 @@ class LangManager:
 
     def get(self, lang, key):
         return self.__languages[lang][key]
+
+    def get_languages(self):
+        langs = [key for key in self.__languages.keys()]
+        return langs
